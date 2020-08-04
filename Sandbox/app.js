@@ -17,12 +17,6 @@
 
 const arr = [ undefined, 'hi', null, 50, -1, -5, 2, 'yo'];
 
-// for(let i=0; i<arr.length; i++) {
-//     // if(typeof arr[i] !== 'number') {
-//     //     arr.splice(arr[i]);
-//     // }
-// }
-
 const arr2 = arr.filter((val) => {
     return typeof val == 'number';
 });
