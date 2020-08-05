@@ -15,7 +15,7 @@
 //     console.log(`Hello i'm ${name}`);
 // })('Gayal')
 
-const arr = [ undefined, 'hi', null, 50, -1, -5, 2, 'yo'];
+/*const arr = [ undefined, 'hi', null, 50, -1, -5, 2, 'yo'];
 
 const arr2 = arr.filter((val) => {
     return typeof val == 'number';
@@ -28,4 +28,6 @@ if(arr2.length == 0) {
         return x-y;
     });
     console.log(arr2[0]);
-}
+} */
+
+localStorage.setItem('name', 'jhon');
