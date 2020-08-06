@@ -97,7 +97,7 @@ class Book {
     }
   }
 
-  //Dom load event
+  // Dom load event
   document.addEventListener('DOMContentLoaded', Store.displayBooks);
   
   // Event Listener for add book
