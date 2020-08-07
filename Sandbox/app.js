@@ -30,4 +30,36 @@ if(arr2.length == 0) {
     console.log(arr2[0]);
 } */
 
-localStorage.setItem('name', 'jhon');
+//localStorage.setItem('name', 'jhon');
+
+const posts = [
+    {title: 'post one', body: 'this is post one'}, 
+    {title: 'post two', body: 'this is post two'}
+];
+
+function createPost(post, callback) {
+    setTimeout(function() {
+        posts.push(post);
+        callback();
+    }, 3000);
+}
+
+function getPost() {
+    setTimeout(function() {
+        let output = '';
+        posts.forEach(function(post) {
+            output += `
+                <li>${post.title}</li>
+            `;
+        });
+        document.body.innerHTML = output;
+    }, 1000);
+}
+
+createPost({
+    title: 'post three', body: 'this is post three'
+}, getPost);
+
+getPost(); // Get the post before actually created.
+
+
