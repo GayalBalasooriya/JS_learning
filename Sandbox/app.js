@@ -32,6 +32,7 @@ if(arr2.length == 0) {
 
 //localStorage.setItem('name', 'jhon');
 
+/*
 const posts = [
     {title: 'post one', body: 'this is post one'}, 
     {title: 'post two', body: 'this is post two'}
@@ -61,5 +62,5 @@ createPost({
 }, getPost);
 
 getPost(); // Get the post before actually created.
-
+*/
 
