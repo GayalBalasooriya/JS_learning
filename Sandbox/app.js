@@ -147,7 +147,7 @@ stack.display();
 //     }
 // }
 
-let arr = [5, "hi", 1, 46, 32, 12, "asfda", undefined, null, -2, -9];
+//let arr = [5, "hi", 1, 46, 32, 12, "asfda", undefined, null, -2, -9];
 
 // let newArray = arr.filter((ele) => {
 //     return typeof ele == 'number'
@@ -164,6 +164,7 @@ let arr = [5, "hi", 1, 46, 32, 12, "asfda", undefined, null, -2, -9];
 //     })
 //     console.log(newArray);
 // }
+/*
 var a = arr[3].toString();
 //arr.join('');
 let c = 12345;
@@ -176,7 +177,6 @@ arrr.reverse()
 console.log(arrr)
 let arrrr = arrr.join('')
 console.log(arrrr)
-
-
+*/
 
 
