@@ -205,3 +205,68 @@ console.log(names.next().value);
 console.log(names.next().value);
 
 */
+/*
+let text = "Hello my name is khan";
+
+let v = text.split(' ');
+console.log(v);
+
+let z = v.sort((x, y) => {
+    return x-y;
+})
+
+let j = v.sort();
+let k = v.reverse();
+let b = k.join(' ');
+console.log(b);
+*/
+/*
+let re = /hello/;
+
+const result = re.exec("hello mr. fucker");
+
+console.log(result);
+
+let v = 1892;
+
+p = v.toString();
+q = p.split('');
+r = q.reverse();
+s = r.join('');
+t = parseInt(s);
+console.log(t);
+
+// Queue class 
+class Queue 
+{ 
+	// Array is used to implement a Queue 
+	constructor() 
+	{ 
+		this.items = []; 
+	} 
+				
+	// enqueue function 
+    enqueue(element) 
+    {	 
+        // adding element to the queue 
+        this.items.push(element); 
+    }
+    
+    dequeue() 
+    { 
+        // removing element from the queue 
+        // returns underflow when called  
+        // on empty queue 
+        if(this.isEmpty()) 
+            return "Underflow"; 
+        return this.items.shift(); 
+    } 
+    
+    
+
+} 
+let queue = new Queue;
+queue.enqueue(100);
+queue.dequeue();
+queue.dequeue();
+*/
