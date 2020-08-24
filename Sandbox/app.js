@@ -202,5 +202,6 @@ console.log(names.next().value);
 console.log(names.next().value);
 console.log(names.next().value);
 console.log(names.next().value);
+console.log(names.next().value);
 
 */
