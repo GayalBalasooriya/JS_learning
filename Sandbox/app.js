@@ -271,10 +271,10 @@ queue.dequeue();
 queue.dequeue();
 */
 
-function connect() {
-    return function() {
-        return "Hi there";
-    }
-}
+// function connect() {
+//     return function() {
+//         return "Hi there";
+//     }
+// }
 
-console.log(connect()())
+// console.log(connect()())
