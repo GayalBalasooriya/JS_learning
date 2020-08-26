@@ -270,3 +270,11 @@ queue.enqueue(100);
 queue.dequeue();
 queue.dequeue();
 */
+
+function connect() {
+    return function() {
+        return "Hi there";
+    }
+}
+
+console.log(connect()())
