@@ -278,3 +278,7 @@ queue.dequeue();
 // }
 
 // console.log(connect()())
+
+colors = ["red", "blue"];
+
+console.log([...colors, "yellow"]);
