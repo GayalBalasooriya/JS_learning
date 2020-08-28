@@ -279,6 +279,24 @@ queue.dequeue();
 
 // console.log(connect()())
 
-colors = ["red", "blue"];
+// colors = ["red", "blue"];
 
-console.log([...colors, "yellow"]);
+// console.log([...colors, "yellow"]);
+
+const UICtrl = (function() {
+    let text = 'Hello world';
+
+    const changeText = function() {
+        const element = document.querySelector('h1');
+        element.textContent = text;
+    }
+
+    return {
+        callChangeText: function() {
+            changeText();
+        }
+    }
+})();
+
+//UICtrl.changeText();
+UICtrl.callChangeText();
