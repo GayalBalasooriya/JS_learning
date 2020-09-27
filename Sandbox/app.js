@@ -304,6 +304,11 @@ queue.dequeue();
 const a = ['a', 2, 'dfsaf', -3, 43, 1];
 
 const n = a.filter((x) => {
-    return typeof x =='integer';
+    return typeof x =='number';
 })
+
+n.sort((x,y) => {
+    return x-y;
+})
+
 console.log(n);
