@@ -283,20 +283,27 @@ queue.dequeue();
 
 // console.log([...colors, "yellow"]);
 
-const UICtrl = (function() {
-    let text = 'Hello world';
+// const UICtrl = (function() {
+//     let text = 'Hello world';
 
-    const changeText = function() {
-        const element = document.querySelector('h1');
-        element.textContent = text;
-    }
+//     const changeText = function() {
+//         const element = document.querySelector('h1');
+//         element.textContent = text;
+//     }
 
-    return {
-        callChangeText: function() {
-            changeText();
-        }
-    }
-})();
+//     return {
+//         callChangeText: function() {
+//             changeText();
+//         }
+//     }
+// })();
 
-//UICtrl.changeText();
-UICtrl.callChangeText();
+// //UICtrl.changeText();
+// UICtrl.callChangeText();
+
+const a = ['a', 2, 'dfsaf', -3, 43, 1];
+
+const n = a.filter((x) => {
+    return typeof x =='integer';
+})
+console.log(n);
