@@ -301,14 +301,34 @@ queue.dequeue();
 // //UICtrl.changeText();
 // UICtrl.callChangeText();
 
-const a = ['a', 2, 'dfsaf', -3, 43, 1];
+// const a = ['a', 2, 'dfsaf', -3, 43, 1];
 
-const n = a.filter((x) => {
-    return typeof x =='number';
-})
+// const n = a.filter((x) => {
+//     return typeof x =='number';
+// })
 
-n.sort((x,y) => {
-    return x-y;
-})
+// n.sort((x,y) => {
+//     return x-y;
+// })
 
-console.log(n);
+// console.log(n);
+
+var a = ['a', 'b', 'c']
+
+let v=a.join('');
+let c=v.split();
+console.log(c)
+
+let d = '123'
+let x = parseInt(d)
+console.log(typeof x)
+// let c = 12345;
+// let b = c.toString();
+// console.log(b)
+// console.log(typeof b)
+// let arrr = b.split('') 
+// console.log(arrr)
+// arrr.reverse()
+// console.log(arrr)
+// let arrrr = arrr.join('')
+// console.log(arrrr)
