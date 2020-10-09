@@ -332,3 +332,22 @@ console.log(typeof x)
 // console.log(arrr)
 // let arrrr = arrr.join('')
 // console.log(arrrr)
+
+let e = [1, "56", -1, null, undefined, 567, 43];
+
+let f = e.filter((x)=> {
+    return typeof x == 'number';
+});
+
+console.log(f);
+
+f.sort((x,y) => {
+    return x-y;
+})
+console.log(f)
+
+let g = 1234
+
+let j = g.toString();
+console.log(g);
+console.log(typeof j)
